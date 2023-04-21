@@ -493,26 +493,21 @@ width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 #es-garnier.es-garnier .es-cross__single {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 250px;
-  margin: 10px;
+  flex-basis: 213px;
 }
 #es-garnier.es-garnier .es-cross__name {
   text-align: center;
   font-family: Montserrat;
   font-weight: 700;
 }
-#es-garnier.es-garnier .es-cross__name--pink {
-  color: #d85865;
-}
-#es-garnier.es-garnier .es-cross__name--blue {
-  color: #67c0b0;
-}
+
 #es-garnier.es-garnier .es-cross__name--green {
   color: #095b2e;
 }
@@ -523,6 +518,8 @@ width: 100%;
   text-align: center;
   font-family: Montserrat;
   font-weight: 700;
+  width: 16ch;
+  height: 36px;
 }
 #es-garnier.es-garnier .es-cross__desc {
   text-align: center;
@@ -544,22 +541,7 @@ width: 100%;
   color: #fff;
   transition: 0.4s ease-in-out;
 }
-#es-garnier.es-garnier .es-cross__link--pink {
-  background-color: #d85865;
-}
-#es-garnier.es-garnier .es-cross__link--pink:hover {
-  color: #d85865;
-  outline: 3px solid #d85865;
-  background-color: #fff;
-}
-#es-garnier.es-garnier .es-cross__link--blue {
-  background-color: #67c0b0;
-}
-#es-garnier.es-garnier .es-cross__link--blue:hover {
-  color: #67c0b0;
-  outline: 3px solid #67c0b0;
-  background-color: #fff;
-}
+
 #es-garnier.es-garnier .es-cross__link--green {
   background-color: #095b2e;
 }
@@ -581,7 +563,7 @@ width: 100%;
 }
 #es-garnier.es-garnier .es-cross__imgCtn img {
   width: auto;
-  height: 250px;
+  height: 220px;
   display: block;
   margin: 0 auto;
 }
