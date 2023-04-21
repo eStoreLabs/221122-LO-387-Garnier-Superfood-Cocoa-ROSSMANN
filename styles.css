@@ -55,7 +55,7 @@
 }
 #es-garnier.es-garnier .es-kv__imgCtn {
   width: 50%;
-  background-image: url(./img/kv-woman.jpg);
+  background-image: url(./img/kv-woman.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,7 +67,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #f2dfbf;
-  background-image: url(./img/kv-ampoule.jpg);
+  background-image: url(./img/kv-ampoule.png);
   background-repeat: no-repeat;
   background-position: right 90px;
   background-size: 120%;
@@ -132,13 +132,13 @@
   align-items: flex-end;
 }
 #es-garnier.es-garnier .es-avo__single--oil {
-  background-image: url(./img/olejek.jpg);
+  background-image: url(./img/olejek.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #es-garnier.es-garnier .es-avo__single--avo {
-  background-image: url(./img/ceramidy.jpg);
+  background-image: url(./img/ceramidy.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
