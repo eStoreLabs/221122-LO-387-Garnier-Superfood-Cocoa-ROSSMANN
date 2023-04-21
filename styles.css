@@ -1,19 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
-@font-face {
-  font-family: "Gotham-Book";
-  src: url("./fonts/Gotham-Book.otf") format("opentype");
-  font-display: auto;
-}
-@font-face {
-  font-family: "Gotham-Black";
-  src: url("./fonts/Gotham-Black-Regular.ttf") format("opentype");
-  font-display: auto;
-}
-@font-face {
-  font-family: "Gotham-Bold";
-  src: url("./fonts/Gotham-Bold.otf") format("opentype");
-  font-display: auto;
-}
+
 @keyframes es-slide-in {
   0% {
     opacity: 0;
@@ -25,7 +11,7 @@
   }
 }
 #es-garnier.es-garnier {
-  font-family: "Gotham-Book", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -46,7 +32,7 @@
 #es-garnier.es-garnier h3,
 #es-garnier.es-garnier h4,
 #es-garnier.es-garnier h5 {
-  font-family: "Gotham-Book", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
   color: #111;
 }
 #es-garnier.es-garnier .es-kv {
@@ -103,7 +89,8 @@
   width: min-content;
   padding: 2px 10px;
   text-transform: uppercase;
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
 }
 #es-garnier.es-garnier .es-kv__packshot {
   margin-left: -120px;
@@ -114,7 +101,8 @@
 #es-garnier.es-garnier .es-avo__title {
   text-transform: uppercase;
   color: #000;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   font-size: 20px;
   text-align: center;
 }
@@ -151,7 +139,8 @@
   height: 80px;
 }
 #es-garnier.es-garnier .es-avo__name {
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -195,7 +184,8 @@
 #es-garnier.es-garnier .es-green__title {
   text-transform: uppercase;
   color: #095b2e;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   font-size: 20px;
 }
 #es-garnier.es-garnier .es-green__text {
@@ -207,7 +197,8 @@
 #es-garnier.es-garnier .es-ingredients__title {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   font-size: 20px;
 }
 #es-garnier.es-garnier .es-ingredients__container {
@@ -222,7 +213,8 @@
 #es-garnier.es-garnier .es-ingredients__packshot::before {
   content: "przed";
   text-transform: uppercase;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   display: block;
   position: absolute;
   bottom: 0px;
@@ -231,7 +223,8 @@
 #es-garnier.es-garnier .es-ingredients__packshot::after {
   content: "po";
   text-transform: uppercase;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   display: block;
   position: absolute;
   bottom: 0px;
@@ -257,7 +250,8 @@
 }
 #es-garnier.es-garnier .es-ingredients__content p {
   color: #095b2e;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   font-size: 25px;
   line-height: 0.9;
   text-transform: uppercase;
@@ -299,7 +293,8 @@
   text-align: center;
 }
 #es-garnier.es-garnier .es-ingredients__text span {
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
   font-size: 16px;
   display: block;
   margin-bottom: 4px;
@@ -343,7 +338,8 @@
 #es-garnier.es-garnier .es-benefits__title {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 700;
   font-size: 22px;
 }
 #es-garnier.es-garnier .es-benefits__package {
@@ -410,7 +406,8 @@
 }
 #es-garnier.es-garnier .es-prepare__title {
   text-align: center;
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 20px;
   position: relative;
@@ -432,7 +429,8 @@ flex-basis: 250px;
 }
 
 #es-garnier.es-garnier .es-prepare__step {
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
   margin-top: 40px;
 }
 #es-garnier.es-garnier .es-prepare__desc {
@@ -458,7 +456,8 @@ width: 100%;
 #es-garnier.es-garnier .es-eco__title {
   text-transform: uppercase;
   text-align: center;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   font-size: 18px;
   margin-bottom: 20px;
 }
@@ -475,14 +474,16 @@ width: 100%;
   width: 300px;
 }
 #es-garnier.es-garnier .es-eco__text span {
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
 }
 #es-garnier.es-garnier .es-cross {
   margin: 20px 0;
 }
 #es-garnier.es-garnier .es-cross__title {
   text-align: center;
-  font-family: "Gotham-Black";
+  font-family: Montserrat;
+  font-weight: 900;
   text-transform: uppercase;
   font-size: 20px;
   margin-bottom: 30px;
@@ -503,7 +504,8 @@ width: 100%;
 }
 #es-garnier.es-garnier .es-cross__name {
   text-align: center;
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
 }
 #es-garnier.es-garnier .es-cross__name--pink {
   color: #d85865;
@@ -519,7 +521,8 @@ width: 100%;
 }
 #es-garnier.es-garnier .es-cross__subtitle {
   text-align: center;
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
 }
 #es-garnier.es-garnier .es-cross__desc {
   text-align: center;
@@ -532,7 +535,8 @@ width: 100%;
 #es-garnier.es-garnier .es-cross__link {
   text-decoration: none;
   text-align: center;
-  font-family: "Gotham-Bold";
+  font-family: Montserrat;
+  font-weight: 700;
   width: 100%;
   margin: 10px 0;
   padding: 5px 40px;
@@ -642,7 +646,6 @@ width: 100%;
   }
   #es-garnier.es-garnier .es-avo__single {
     width: 500px;
-    /* border: 1px solid red; */
   }
   #es-garnier.es-garnier .es-green__imgCtn {
     max-width: 300px;
@@ -707,4 +710,4 @@ width: 100%;
     min-width: 190px;
     width: 190px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
