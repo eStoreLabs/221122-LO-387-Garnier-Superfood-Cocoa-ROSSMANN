@@ -29,7 +29,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  max-width: 1300px;
+  max-width: 930px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -54,22 +54,23 @@
   display: flex;
 }
 #es-garnier.es-garnier .es-kv__imgCtn {
-  width: 60%;
+  width: 50%;
   background-image: url(./img/kv-woman.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 #es-garnier.es-garnier .es-kv__contentCtn {
-  max-width: 40%;
+  max-width: 50%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #f2dfbf;
   background-image: url(./img/kv-ampoule.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 100% 85%;
+  background-position: right 90px;
+  background-size: 120%;
 }
 #es-garnier.es-garnier .es-kv__logoCtn {
   width: 100%;
@@ -90,10 +91,10 @@
   position: absolute;
   content: url(./img/kv-badge.png);
   top: 25%;
-  right: 8%;
+  right: 0%;
 }
 #es-garnier.es-garnier .es-kv__brand {
-  min-width: 250px;
+  min-width: 200px;
 }
 #es-garnier.es-garnier .es-kv__newness {
   background-color: #d39551;
@@ -212,6 +213,7 @@
 #es-garnier.es-garnier .es-ingredients__container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 #es-garnier.es-garnier .es-ingredients__packshot {
@@ -224,7 +226,7 @@
   display: block;
   position: absolute;
   bottom: 0px;
-  left: 0;
+  left: -10px;
 }
 #es-garnier.es-garnier .es-ingredients__packshot::after {
   content: "po";
@@ -236,14 +238,15 @@
   right: 0;
 }
 #es-garnier.es-garnier .es-ingredients__img {
-  max-width: 100%;
+  width: 100%;
   display: block;
   margin: 0 auto;
   max-width: 50px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 #es-garnier.es-garnier .es-ingredients__img--packshot {
   max-width: 250px;
+  min-width: 300px;
 }
 #es-garnier.es-garnier .es-ingredients__content {
   display: flex;
@@ -374,7 +377,7 @@
   margin-right: 10px;
 }
 #es-garnier.es-garnier .es-benefits__packshotImg {
-  max-width: 150px;
+  max-width: 120px;
   margin-right: -50px;
   z-index: 10;
   position: relative;
@@ -416,26 +419,18 @@
 #es-garnier.es-garnier .es-prepare__mainCtn {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  gap: 20px;
 }
 #es-garnier.es-garnier .es-prepare__single {
-  width: 280px;
-  min-height: 400px;
-  margin: 10px;
+flex-basis: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-#es-garnier.es-garnier .es-prepare__imgCtn {
-  width: 220px;
-  height: 220px;
-}
-#es-garnier.es-garnier .es-prepare__img {
-  width: 100%;
-  height: 100%;
-}
+
 #es-garnier.es-garnier .es-prepare__step {
   font-family: "Gotham-Bold";
   margin-top: 40px;
@@ -454,10 +449,11 @@
   margin-bottom: 50px;
 }
 #es-garnier.es-garnier .es-eco__imgCtn {
-  max-width: 400px;
+width: 350px;
+
 }
 #es-garnier.es-garnier .es-eco__img {
-  width: 100%;
+width: 100%;
 }
 #es-garnier.es-garnier .es-eco__title {
   text-transform: uppercase;
