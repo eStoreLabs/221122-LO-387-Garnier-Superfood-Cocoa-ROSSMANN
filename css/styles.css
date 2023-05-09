@@ -41,7 +41,7 @@
 }
 #es-garnier.es-garnier .es-kv__imgCtn {
   width: 50%;
-  background-image: url(./img/kv-woman.png);
+  background-image: url(https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470490/img/kv-woman.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -53,7 +53,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #f2dfbf;
-  background-image: url(./img/kv-ampoule.png);
+  background-image: url(https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470490/img/kv-ampoule.png);
   background-repeat: no-repeat;
   background-position: right 90px;
   background-size: 120%;
@@ -75,7 +75,7 @@
 }
 #es-garnier.es-garnier .es-kv__textCtn::after {
   position: absolute;
-  content: url(./img/kv-badge.png);
+  content: url(https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470490/img/kv-badge.png);
   top: 25%;
   right: 0%;
 }
@@ -120,13 +120,13 @@
   align-items: flex-end;
 }
 #es-garnier.es-garnier .es-avo__single--oil {
-  background-image: url(./img/olejek.png);
+  background-image: url(https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470490/img/olejek.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 #es-garnier.es-garnier .es-avo__single--avo {
-  background-image: url(./img/ceramidy.png);
+  background-image: url(https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470490/img/ceramidy.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@
 }
 #es-garnier.es-garnier .es-ingredients__cards {
   margin: 0;
-  background: url(./img/leaf-icon.png) no-repeat center center;
+  background: url(https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542470490/img/leaf-icon.png) no-repeat center center;
   background-size: 220px;
 }
 #es-garnier.es-garnier .es-ingredients__cards .es-ingredients__single {
