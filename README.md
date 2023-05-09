@@ -1,6 +1,6 @@
 # to do
 
-* name index.html file with EAN number EAN.html
+
 
 * all links to images and styles need to have following structure:
 ```
@@ -16,5 +16,3 @@ Please make sure to always put it as below:
 
 * delete basic <html> structure. Remove `<html>`,`<body>`, `<title>` and `<head>` tags.
 
-# NEED
-* EAN
